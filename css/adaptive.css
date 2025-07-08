@@ -1,0 +1,12 @@
+@media only screen and (max-width:800px) {
+    .header {
+        background-color: rgb(231, 200, 200);
+        width: 600px;
+    }
+    .service {
+        width: 122px;
+    }
+    .proj {
+        width: 170px;
+    }
+}

@@ -1,0 +1,49 @@
+.container {
+    max-width: 1200px;
+}
+.header {
+    width: 100%;
+    background-color: aqua;
+}
+.services {
+    width: 100%;
+}
+.service {
+    width: 23%;
+    background-color: brown;
+}
+.proj {
+    width: 32%;
+    background-color: blueviolet;
+}
+
+@media only screen and (max-width:1000px) {
+    .service {
+        width: 45%;
+        background-color: aquamarine;
+    }
+    .proj {
+        width: 90%;
+        background-color: rgb(241, 232, 97);
+    }
+}
+@media only screen and (max-width:600px) {
+    .service {
+        width: 45%;
+        background-color: rgb(177, 143, 34);
+    }
+    .proj {
+        width: 100%;
+        background-color: rgb(228, 67, 206);
+    }
+}
+@media only screen and (max-width:400px) {
+    .service {
+        width: 100%;
+        background-color: rgb(177, 143, 34);
+    }
+    .proj {
+        width: 100%;
+        background-color: rgb(228, 67, 206);
+    }
+}
